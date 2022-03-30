@@ -1,0 +1,5 @@
+newmtl Mat_Cubo_Personalizado
+map_Kd Uv_projection.png
+Kd 1 1 1
+d 1
+
