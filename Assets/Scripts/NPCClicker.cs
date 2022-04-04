@@ -23,7 +23,7 @@ public class NPCClicker : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity))
             {
-                Debug.Log(hit.point);
+                agent.SetDestination(hit.point);
             }
         }
     }
